@@ -1,5 +1,5 @@
 {
-  "name": "passport-dam",
+  "name": "@darkartmailbox/passport-dam",
   "description": "Dark Art Mailbox authentication strategy for Passport",
   "version": "1.0.0",
   "keywords": [
@@ -18,14 +18,18 @@
     "url": "https://github.com/aaronbean/passport-dam/issues",
     "email": "aaron.bean@gmail.com"
   },
-  "author": {
-    "name": "Aaron Bean",
-    "email": "aaron.bean@gmail.com",
-    "url": "https://github.com/aaronbean"
-  },
+  "author": "Aaron Bean <aaron.bean@gmail.com> (https://github.com/aaronbean)",
   "main": "./lib/passport-dam",
   "dependencies": {
     "passport-oauth2": "^1.8.0",
     "pkginfo": "^0.4.1"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
 }
